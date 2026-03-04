@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Layout>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Landing" element={<Home />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
           <Route path="/benefits" element={<Benefits />} />
           <Route path="/early-access" element={<EarlyAccess />} />

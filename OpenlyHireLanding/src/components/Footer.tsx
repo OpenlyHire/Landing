@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import React from "react";
-import { BottomNavigationAction, Button, IconButton, InputBase, Paper } from "@mui/material";
+import { BottomNavigationAction, Button, InputBase, Paper } from "@mui/material";
 import { BottomNavigation, Box, Link, Typography } from "@mui/material";
 import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
 
@@ -12,7 +11,6 @@ export default function Footer() {
     { label: "Privacy Policy", path: "/privacy-policy" },
     { label: "Terms of Service", path: "/terms-of-service" },
   ]
-  const [value, setValue] = React.useState(0);
   return (
     <Box
       component="footer"

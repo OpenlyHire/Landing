@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
-import { Accordion, AccordionDetails, AccordionSummary, Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
+import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
 import structuredEvaluationEngine from '../assets/Structured Evaluation Engine.png';
 import intelligentFeedbackSystem from '../assets/Intelligent Feedback System.png';
 import sharedNetworkAccess from '../assets/Shared Network Access.png';

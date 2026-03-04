@@ -47,6 +47,7 @@ const HowItWorks: React.FC = () => {
                 {processes.map((process, index) => (
                     <SpotlightCard >
                         <Accordion
+                        key={index}
                             elevation={0}
                             sx={{
                                 minWidth: 1200,
